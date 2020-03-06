@@ -1,0 +1,105 @@
+/* Colors and Fonts */
+body{
+	background-image: url(images/univers.jpg); 
+	background-attachment: fixed;
+	color: black;
+	font-family: 'Zilla Slab', serif;
+	font-size: 20px;
+	background-size: 1450px;
+	font-weight: 500;
+}
+
+h1,h2,h3{
+	font-family: 'Muli', sans-serif;
+}
+
+h1{
+	color: 690500;
+	font-size: 32px;
+	font-weight: 800;
+	letter-spacing: 1.5px;
+}
+h2{
+	color: rgb(18,78,120);
+	font-size: 22px;	
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+a{
+	text-decoration: none;
+	color: 1F1A38;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
+	transition: : 0.3s;
+}
+a:hover {
+	color: rgb(0,0,0);
+}
+
+/* Custom Design with Class (99%)*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: rgba(250,250,250,0.9);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.btn-yellow{
+	background-color: FAA916; 
+	color: rgb(251,251,251);
+	padding: 13px 20px;
+	border-radius: 4px;
+}
+.btn-yellow:hover {
+	background-color: 86BBD8;
+	color: 1E1E24;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline a:hover {
+	opacity: 0.7;
+	transition: 0.3s;
+}
+
+/* Custom Design with ID (01%)*/
+
+#intro p{
+	margin-bottom: 40px
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+.icon-small{
+	width: 25px;
+	height: 25px;
+}
+.icon-medium{
+	width: 50px;
+	height: 50px;
+}
